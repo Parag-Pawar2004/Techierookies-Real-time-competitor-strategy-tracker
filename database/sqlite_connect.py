@@ -18,6 +18,9 @@ def create_table():
             model TEXT,
             price TEXT,
             site TEXT,
+            rating TEXT,
+            review TEXT,
+            site TEXT,
             scraped_at TEXT
         )
     """)

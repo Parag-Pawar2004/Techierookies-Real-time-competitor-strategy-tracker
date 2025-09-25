@@ -8,6 +8,8 @@ def scrape_iphone(model_name):
         "model": model_name,
         "price": "80,000",
         "site":"Amazon",
+        "rating":"4.5",
+        "review":"Battery Life is amazing ",
         "scraped_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
     return data
